@@ -9,7 +9,58 @@
     * {
       box-sizing: border-box;
     }
+ /* Wrapper to allow horizontal scroll on small devices */
+ .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+    margin-top: 20px;
+  }
 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #eee;
+    font-size: 16px;
+    min-width: 600px; /* ensure min width so scroll works */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+  }
+
+  th {
+    background-color: #0284c7;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  tr:hover {
+    background-color: #064e3b;
+  }
+
+  /* Responsive font and padding for smaller screens */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+    input[type="password"], input[type="text"], button {
+      font-size: 14px;
+      padding: 8px;
+    }
+    th, td {
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+  }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #121212;
@@ -153,7 +204,7 @@
   <div id="content">
     <h1>Liste des utilisateurs (numéros mauritaniens)</h1>
     <input type="text" id="searchInput" placeholder="Rechercher par numéro...">
-
+    <div class="table-wrapper">
     <table id="userTable">
       <thead>
         <tr>
@@ -1805,6 +1856,7 @@
         <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
       </tr>
         </table>
+        </div>
   </div>
 
 <script>
