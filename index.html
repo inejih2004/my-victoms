@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Utilisateurs Mauritaniens (Statique)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #0f172a;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 15px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background-color: #1d4ed8;
+      color: white;
+    }
+    button.copy-btn {
+      padding: 5px 10px;
+      background-color: #10b981;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button.copy-btn:hover {
+      background-color: #059669;
+    }
+    #searchInput {
+      margin: 20px 0;
+      padding: 10px;
+      width: 100%;
+      max-width: 300px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Liste des utilisateurs (numéros mauritaniens)</h1>
+
+<input type="text" id="searchInput" placeholder="Rechercher par numéro...">
+
+<table id="userTable">
+  <tr>
+    <th>Numéro</th>
+    <th>Mot de passe</th>
+    <th>Copier Numéro</th>
+    <th>Copier Mot de passe</th>
+  </tr>
+  <tr>
+    <td class="username">48491255</td>
+    <td class="password">abdellahi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41932058</td>
+    <td class="password">419320</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48851628</td>
+    <td class="password">mmmm</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43177894</td>
+    <td class="password">177894</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46655795</td>
+    <td class="password">إيسلم6</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42259484</td>
+    <td class="password">22259531</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32579051</td>
+    <td class="password">2020</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44908991</td>
+    <td class="password">304050</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">33341171</td>
+    <td class="password">Ďàh Ďàh zø</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">37992855</td>
+    <td class="password">Migoss</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30456636</td>
+    <td class="password">2lmed5el</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44254371</td>
+    <td class="password">bahkkkkk</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48536087</td>
+    <td class="password">kkkk</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47313326</td>
+    <td class="password">Aa2004Bb</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47102618</td>
+    <td class="password">46719700</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30576916</td>
+    <td class="password">A14042430</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44181975</td>
+    <td class="password">22701899</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41869344</td>
+    <td class="password">424242</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44181975</td>
+    <td class="password">22915211</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22405513</td>
+    <td class="password">Aa2004Bb</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32845269</td>
+    <td class="password">Mohmed</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48898949</td>
+    <td class="password">22722800</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48511573</td>
+    <td class="password">46067223</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41753837</td>
+    <td class="password">41753837</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42429548</td>
+    <td class="password">medlemin4242</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44821473</td>
+    <td class="password">448214</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42690082</td>
+    <td class="password">alydiaw</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48508995</td>
+    <td class="password">46004167</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46732893</td>
+    <td class="password">juiceworld</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">37739551</td>
+    <td class="password">29806</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48508995</td>
+    <td class="password">zzzzzxxx</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">37378818</td>
+    <td class="password">itachi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49151739</td>
+    <td class="password">med 1999</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32363850</td>
+    <td class="password">zxcvbnmll</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">37382503</td>
+    <td class="password">37382503</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">27374168</td>
+    <td class="password">47688763</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41428556</td>
+    <td class="password">5656</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41428555</td>
+    <td class="password">5656</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48491630</td>
+    <td class="password">iaalla</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42447513</td>
+    <td class="password">ucuugy</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42445181</td>
+    <td class="password">48834599</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41948326</td>
+    <td class="password">35250153</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41948326</td>
+    <td class="password">34250153</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44345201</td>
+    <td class="password">41461621</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47866201</td>
+    <td class="password">mamati</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47866201</td>
+    <td class="password">mohameed</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43552122</td>
+    <td class="password">46402061</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42319690</td>
+    <td class="password">26131929</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34525758</td>
+    <td class="password">mæmi 7</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42890345</td>
+    <td class="password">8888</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42939050</td>
+    <td class="password">مجمدمحمود</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43050988</td>
+    <td class="password">العباس</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">37699006</td>
+    <td class="password">mhadi 56</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48318547</td>
+    <td class="password">31323334</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32819261</td>
+    <td class="password">pako36669212</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48921123</td>
+    <td class="password">bizi king09</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48719071</td>
+    <td class="password">kimani</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42315200</td>
+    <td class="password">Abdllhi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46407410</td>
+    <td class="password">47617440</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">31491056</td>
+    <td class="password">habibt</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46671941</td>
+    <td class="password">ty</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46301820</td>
+    <td class="password">48079399</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42684822</td>
+    <td class="password">46301820</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">33364271</td>
+    <td class="password">44143150</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43092609</td>
+    <td class="password">kkkkk</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43092609</td>
+    <td class="password">22092609</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49701581</td>
+    <td class="password">42568222</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46671941</td>
+    <td class="password">ff</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32006255</td>
+    <td class="password">احمد باب</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49467779</td>
+    <td class="password">48281412</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46490882</td>
+    <td class="password">44214626</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32518788</td>
+    <td class="password">46256307</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34704489</td>
+    <td class="password">سيداحمد</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41588517</td>
+    <td class="password">123456789</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42913520</td>
+    <td class="password">70707070</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34704489</td>
+    <td class="password">2222222222</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34704489</td>
+    <td class="password">222221812</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49601059</td>
+    <td class="password">311200</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49601059</td>
+    <td class="password">3112000</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32547928</td>
+    <td class="password">1234</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30503232</td>
+    <td class="password">773337</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22765880</td>
+    <td class="password">441451</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48640020</td>
+    <td class="password">ME.123456</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47892572</td>
+    <td class="password">121710</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44347152</td>
+    <td class="password">masse 1234</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">38446361</td>
+    <td class="password">305376</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49624604</td>
+    <td class="password">41787886</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34704489</td>
+    <td class="password">31194905</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46073635</td>
+    <td class="password">224080</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42890345</td>
+    <td class="password">555</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43569639</td>
+    <td class="password">med 4699</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42092578</td>
+    <td class="password">g</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47348405</td>
+    <td class="password">mouna ba</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42092578</td>
+    <td class="password">gkg</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">26063570</td>
+    <td class="password">اكريستيانو</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49145332</td>
+    <td class="password">king king</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46073635</td>
+    <td class="password">324080</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46676862</td>
+    <td class="password">fall4667</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49976755</td>
+    <td class="password">mnlkpo</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46317297</td>
+    <td class="password">maaloumbouna</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44086940</td>
+    <td class="password">16040650</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47616717</td>
+    <td class="password">446617</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48651314</td>
+    <td class="password">44207373</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47173803</td>
+    <td class="password">464644</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47348405</td>
+    <td class="password">مشط حامي</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">20666021</td>
+    <td class="password">12040405</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44180614</td>
+    <td class="password">44180614</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42428739</td>
+    <td class="password">mohame</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">33456880</td>
+    <td class="password">3mri56</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46336388</td>
+    <td class="password">sidilmun</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30436937</td>
+    <td class="password">vivi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32378038</td>
+    <td class="password">med mamy</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49647209</td>
+    <td class="password">kansadou</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">27243872</td>
+    <td class="password">274738</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49754964</td>
+    <td class="password">26353017</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43524083</td>
+    <td class="password">43524083</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30781821</td>
+    <td class="password">toutou10</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41214594</td>
+    <td class="password">wwwedu</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41214594</td>
+    <td class="password">wwweducation</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">31130561</td>
+    <td class="password">BABABA11</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">36413941</td>
+    <td class="password">MARIA BN</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">27379159</td>
+    <td class="password">278269</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43022588</td>
+    <td class="password">88890758</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">20127540</td>
+    <td class="password">30609816</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">27930737</td>
+    <td class="password">20148188</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">36266388</td>
+    <td class="password">22384751</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22735139</td>
+    <td class="password">Ely chikh</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41202368</td>
+    <td class="password">414464</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41215846</td>
+    <td class="password">Haida2265</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34662677</td>
+    <td class="password">909090</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41624469</td>
+    <td class="password">415244</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48646817</td>
+    <td class="password">Ar12345678</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">26816063</td>
+    <td class="password">130098</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">20127640</td>
+    <td class="password">30609816</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47171176</td>
+    <td class="password">Ahmeed</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30436937</td>
+    <td class="password">vivivi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44242015</td>
+    <td class="password">el3aleye</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">38725222</td>
+    <td class="password">27726794</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48800268</td>
+    <td class="password">42929930</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46871719</td>
+    <td class="password">عثمان عثمان</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49996653</td>
+    <td class="password">49996653</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30660628</td>
+    <td class="password">12345678</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48081140</td>
+    <td class="password">[email protected]</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">37382212</td>
+    <td class="password">ابراهيم</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41673635</td>
+    <td class="password">44406052</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41484333</td>
+    <td class="password">41484333</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49686664</td>
+    <td class="password">محمدوادريس ادريس</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49053509</td>
+    <td class="password">papasidi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49064630</td>
+    <td class="password">49470554</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47215981</td>
+    <td class="password">461314</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">36900839</td>
+    <td class="password">29231350</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43482103</td>
+    <td class="password">salike</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48539438</td>
+    <td class="password">56781243</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30526545</td>
+    <td class="password">sidilmin</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44893271</td>
+    <td class="password">mlpmlpmlp</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41106271</td>
+    <td class="password">770088</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44551466</td>
+    <td class="password">37707838</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22817396</td>
+    <td class="password">228173</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22401963</td>
+    <td class="password">محمد40</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">37378844</td>
+    <td class="password">منت محمد</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22697925</td>
+    <td class="password">43601960</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41865759</td>
+    <td class="password">41865758</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34251513</td>
+    <td class="password">26055512</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48875902</td>
+    <td class="password">ghlylebadeahmedou</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48875902</td>
+    <td class="password">metou1234</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">36377171</td>
+    <td class="password">3637</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46427555</td>
+    <td class="password">chbih37131121</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46335923</td>
+    <td class="password">26148091</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44442263</td>
+    <td class="password">332222</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41270637</td>
+    <td class="password">33672902</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22901160</td>
+    <td class="password">papagrand</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32049067</td>
+    <td class="password">rydgfdf</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43181004</td>
+    <td class="password">Lemirahmed20</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47805233</td>
+    <td class="password">38261186</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30428296</td>
+    <td class="password">daderi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30428296</td>
+    <td class="password">sateli</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">38194416</td>
+    <td class="password">275618</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22111046</td>
+    <td class="password">star2246</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42901962</td>
+    <td class="password">Aliyon</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43098493</td>
+    <td class="password">szszsz</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">20012315</td>
+    <td class="password">20012315</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">42901962</td>
+    <td class="password">Aliyon</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">31723667</td>
+    <td class="password">ahmedahmed</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">44155194</td>
+    <td class="password">Aliyon</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">44155194</td>
+    <td class="password">ع ع ع ع ع ع</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">38279313</td>
+    <td class="password">33236725</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">47056076</td>
+    <td class="password">MedAhmed</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">34807744</td>
+    <td class="password">20911534</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">20939648</td>
+    <td class="password">12121212</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">43458155</td>
+    <td class="password">walid salihh</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">48986504</td>
+    <td class="password">maulaye1516</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">27822722</td>
+    <td class="password">خدجةنت</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">34299956</td>
+    <td class="password">26862120</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">20939648</td>
+    <td class="password">90909090</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">47130217</td>
+    <td class="password">41410102</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr> <tr>
+    <td class="username">30438237</td>
+    <td class="password">266211</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+    </tr>
+    <tr>
+    <td class="username">44407201</td>
+    <td class="password">zo maroc</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48341652</td>
+    <td class="password">483461</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30737452</td>
+    <td class="password">المهدي 96</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47816654</td>
+    <td class="password">47816654</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43704551</td>
+    <td class="password">484474</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47840202</td>
+    <td class="password">349412</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44107200</td>
+    <td class="password">سكندر س</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30544604</td>
+    <td class="password">nti5sran</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42633109</td>
+    <td class="password">Br37977173</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">33339095</td>
+    <td class="password">27051714</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46169955</td>
+    <td class="password">171811</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43109274</td>
+    <td class="password">البات</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43109274</td>
+    <td class="password">اشخصتق</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41662210</td>
+    <td class="password">46455305</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30526545</td>
+    <td class="password">sidilmun</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48787781</td>
+    <td class="password">222221</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46568246</td>
+    <td class="password">220058</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43109274</td>
+    <td class="password">محمد المرابط</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32707174</td>
+    <td class="password">wxcQsd</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">31360774</td>
+    <td class="password">ide ide</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46523147</td>
+    <td class="password">lewayte</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34519230</td>
+    <td class="password">46953700</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34519230</td>
+    <td class="password">Mamasi</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">26960303</td>
+    <td class="password">53220</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43156914</td>
+    <td class="password">445500</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41273555</td>
+    <td class="password">123456</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42337965</td>
+    <td class="password">32337965</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41543460</td>
+    <td class="password">47570860</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47190452</td>
+    <td class="password">122008</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32985413</td>
+    <td class="password">hindou32</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">36494770</td>
+    <td class="password">l9lawye</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47668764</td>
+    <td class="password">47668764</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">38152025</td>
+    <td class="password">3815202547668764</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47658668</td>
+    <td class="password">انا نبقيك</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42725349</td>
+    <td class="password">123456789</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46676862</td>
+    <td class="password">46676862</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43482818</td>
+    <td class="password">46703452</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32143026</td>
+    <td class="password">494950</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49464850</td>
+    <td class="password">mama2022</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43623820</td>
+    <td class="password">khaled</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30651400</td>
+    <td class="password">306514</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41073342</td>
+    <td class="password">320733</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47941794</td>
+    <td class="password">Machalakh</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49600878</td>
+    <td class="password">22345565</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49602841</td>
+    <td class="password">22345565</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46645555</td>
+    <td class="password">22345565</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41268487</td>
+    <td class="password">Moustapha</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34492003</td>
+    <td class="password">41297111</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">26637560</td>
+    <td class="password">5ختا88حةنن6ا7نت6مة4ر4ن6ىرز8ن8م9كده رءخن7ت7ت7كم8زحك0ككحا65لا6امن7</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49350832</td>
+    <td class="password">477709</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49442247</td>
+    <td class="password">492247</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">47220302</td>
+    <td class="password">220302</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34480522</td>
+    <td class="password">344805</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49234348</td>
+    <td class="password">606060</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">48774302</td>
+    <td class="password">SHARO</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">46474483</td>
+    <td class="password">momodou</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">33182411</td>
+    <td class="password">32177554</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32717554</td>
+    <td class="password">33182411</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">31188939</td>
+    <td class="password">361114</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">31534928</td>
+    <td class="password">31534928</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41264585</td>
+    <td class="password">448196</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41264585</td>
+    <td class="password">44819634</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49100925</td>
+    <td class="password">sileym</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">32994110</td>
+    <td class="password">lahastas9</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43458859</td>
+    <td class="password">4659</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">34178426</td>
+    <td class="password">341726</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">33182411</td>
+    <td class="password">32717554</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30726958</td>
+    <td class="password">421252</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41317385</td>
+    <td class="password">hamzetemeek</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">26684083</td>
+    <td class="password">151616</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22243090</td>
+    <td class="password">nanana</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">42226270</td>
+    <td class="password">a42086169m</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">22846418</td>
+    <td class="password">191502</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">49448685</td>
+    <td class="password">370660</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">20540116</td>
+    <td class="password">20540116</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">26708333</td>
+    <td class="password">102010</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">41691178</td>
+    <td class="password">الحمدالله</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">30726958</td>
+    <td class="password">med</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">43147702</td>
+    <td class="password">43771402</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+  <tr>
+    <td class="username">44555207</td>
+    <td class="password">med123</td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'username')">📋</button></td>
+    <td><button class="copy-btn" onclick="copyToClipboard(this, 'password')">📋</button></td>
+  </tr>
+    </table>
+    <script>
+      function copyToClipboard(button, type) {
+        const td = button.closest('tr').querySelector('.' + type);
+        const text = td.textContent;
+        navigator.clipboard.writeText(text).then(() => {
+          button.textContent = "✅";
+          setTimeout(() => button.textContent = "📋", 1000);
+        });
+      }
+      
+      // Search functionality
+      document.getElementById('searchInput').addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase();
+        const rows = document.getElementById('userTable').getElementsByTagName('tr');
+        for (let i = 1; i < rows.length; i++) { // Start from 1 to skip header
+          const username = rows[i].getElementsByClassName('username')[0].textContent.toLowerCase();
+          if (username.includes(searchTerm)) {
+            rows[i].style.display = '';
+          } else {
+            rows[i].style.display = 'none';
+          }
+        }
+      });
+      </script>
+    </body>
+    </html>
